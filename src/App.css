@@ -1,0 +1,86 @@
+.Main{
+  height: 100vh;
+  width: 100%;
+  background: #ECEFF1;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 0;
+  background-color: white;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.sideicons:hover{
+  background-color: rgba(227, 227, 227, 0.82);
+  cursor: pointer;
+}
+
+div{
+  /* border: 2px solid black; */
+}
+
+.CardBox1{
+  height: 80vh;
+  width: 70%;
+  padding: 10px;
+}
+
+.BalanceBox1{
+  width:100%;
+  height:30%;
+  display: flex;
+}
+
+.BalBox1{
+  width: 50%;
+  margin: 5px;
+}
+
+.stats{
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.HomeCards{
+  display: flex;
+}
+
+.CardBox2{
+  height: 80vh;
+  width: 30%;
+  padding: 10px;
+}
+
+.BalanceBox2{
+  width:100%;
+  height:30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BalBox2{
+  height: 50%;
+  margin:5px;
+}
+
+.card{
+  background-image: linear-gradient(to bottom right, #1b1352, #4052c5eb);
+}
+
+.chart{
+  width: 100%;
+  height: 100%;
+}
+
+Series A1 {
+  color: #1b1352;
+  background-color: #1b1352;
+}
