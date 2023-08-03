@@ -55,7 +55,7 @@ export const Cards = () => {
                 <div>
             <h4 className="card-title" ><FaWallet style={{marginTop:"25px",marginLeft:"20px"}}/></h4>
             </div>
-                <div style={{marginLeft:"20px",marginTop:"15px"}}>
+                <div style={{marginLeft:"20px",marginTop:"10px"}}>
              <h6 className="card-title">$200k</h6>
              <p className="card-subtitle" style={{color:"rgba(236, 239, 241, 0.813)",fontSize:"small"}}>Total Orders</p>
              </div>
@@ -70,7 +70,7 @@ export const Cards = () => {
                 <div>
             <h4 className="card-title" ><FaWallet style={{marginTop:"25px",marginLeft:"20px"}}/></h4>
             </div>
-                <div style={{marginLeft:"20px",marginTop:"15px"}}>
+                <div style={{marginLeft:"20px",marginTop:"10px"}}>
              <h6 className="card-title">$200k</h6>
              <p className="card-subtitle" style={{color:"rgba(236, 239, 241, 0.813)",fontSize:"small"}}>Total Orders</p>
              </div>
