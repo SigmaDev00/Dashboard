@@ -1,5 +1,5 @@
 .Main{
-  height: 100vh;
+  height: 00vh;
   width: 100%;
   background: #ECEFF1;
 }
@@ -51,6 +51,26 @@ div{
 
 .HomeCards{
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .HomeCards {
+    flex-direction: column;
+  }
+  .CardBox2{
+    width: 95% !important;
+  }
+  .CardBox1{
+    width: 95% !important;
+  }
+  .stat{
+    flex-direction: column ;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .statOne{
+    width: 95% !important;
+  }
 }
 
 .CardBox2{

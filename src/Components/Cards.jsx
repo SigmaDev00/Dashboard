@@ -4,6 +4,7 @@ import StackBars from './StackBars';
 import { Accordion } from './Accordion';
 
 export const Cards = () => {
+ 
   return (
     <>
     <div className='HomeCards'>
